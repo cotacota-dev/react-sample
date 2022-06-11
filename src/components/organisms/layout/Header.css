@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: #24292e;
+    align-items: center;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.logo-image:hover {
+    cursor: pointer;
+}
+
+.link-tab {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 30px;
+    width: 700px;
+}
+
